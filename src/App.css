@@ -1,0 +1,173 @@
+:root{
+  --Card: #252b41;
+  --backg: #1d2029;
+}
+
+body{
+  background-color: var(--backg);
+}
+
+.App {
+  text-align: center;
+}
+
+h4{
+  margin-bottom: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header{
+  width: 100%;
+  height: 80px;
+  background-color: var(--Card);
+  display:flex;
+  padding:5px;
+  justify-content:space-between;
+}
+
+.logo{
+  height: 70px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.inpute{
+  margin-right: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inpute-input{
+  width: 150px;
+  height: 20px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  outline: none;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 0;
+}
+.inpute-button{
+  height: 25px;
+  margin: 0;
+  border-radius: 40px;
+  background-color: rgb(231, 35, 67);
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.inpute-button:hover{
+  background-color: rgb(245, 2, 43);
+  border: 2px solid lightgrey;
+}
+
+.App-main {
+  background-color: var(--backg);
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.card{
+  background-color: var(--Card);
+  border: 1px solid black;
+  margin: 20px;
+  width: 250px;
+  height: 450px;
+  min-width: 210px;
+  color: white;
+}
+
+.imagem-product{
+  width: 60%;
+  height: 30%;
+  border: 1px solid gray;
+}
+
+.Adicionar{
+  width: 80%;
+  height: 30px;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+
+#card{
+  background-color: var(--Card);
+  border: 1px solid black;
+  margin: 20px;
+  flex-basis: 30%;
+  height: 700px;
+}
+
+#imagem-product{
+  width: 70%;
+  height: 50%
+}
+
+.carrinho{
+  color: white;
+}
+
+
+.image-button{
+  height: 80%;
+}
+h2{
+  color: white;
+}
+
+.carrinho{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card{
+  background-color: var(--Card);
+  border: 1px solid black;
+  margin: 20px;
+  width: 250px;
+  height: 300px;
+  min-width: 210px;
+  color: white;
+}
+
+.Imagem-product{
+  width: 70%;
+  height: 40%;
+  border: 1px solid gray;
+}
+
+@media (max-width: 768px){
+  .card{
+    height:430px;
+  }
+}
+
+@media (max-width: 550px){
+  .card{
+    height:400px;
+  }
+}
+
+@media (max-width: 400px){
+  .card{
+    height:320px;
+  }
+}
+
